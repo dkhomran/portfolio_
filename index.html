@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dekhil Omran | Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+
+    <!--
+    - font Awesome
+  -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <main>
+        <!--
+      - #SIDEBAR
+    -->
+
+        <aside class="sidebar" data-sidebar>
+          <div class="sidebar-info">
+            <figure class="avatar-box">
+              <img
+                src="./assets/images/avatar.jpg"
+                alt="Dekhil Omran"
+                width="80"
+                style="border-radius: 15px"
+              />
+            </figure>
+
+            <div class="info-content">
+              <h1 class="name" title="Dekhil Omran">Dekhil Omran</h1>
+
+              <!-- type headline start-->
+              <div class="title-animation title">
+                <h3 class="animate-charcter isHidden" title-animated-about>
+                  Web Developer
+                </h3>
+                <h3 class="animate-charcter isVisible" title-animated-about>
+                  Web Designer
+                </h3>
+              </div>
+              <!-- type headline end -->
+            </div>
+
+            <button class="info_more-btn" data-sidebar-btn>
+              <span>Show Contacts</span>
+
+              <ion-icon name="chevron-down"></ion-icon>
+            </button>
+          </div>
+
+          <div class="sidebar-info_more">
+            <div class="separator"></div>
+
+            <ul class="contacts-list">
+              <li class="contact-item">
+                <div class="icon-box">
+                  <ion-icon name="mail-outline"></ion-icon>
+                </div>
+
+                <div class="contact-info">
+                  <p class="contact-title">Email</p>
+
+                  <a href="mailto:Dkhomran22@gmail.com" class="contact-link"
+                    >Dekhil22omran@gmail.com</a
+                  >
+                </div>
+              </li>
+
+              <li class="contact-item">
+                <div class="icon-box">
+                  <ion-icon name="phone-portrait-outline"></ion-icon>
+                </div>
+
+                <div class="contact-info">
+                  <p class="contact-title">Phone</p>
+
+                  <a href="tel:+21628085788" class="contact-link"
+                    >+216 28 085 788</a
+                  >
+                </div>
+              </li>
+
+              <li class="contact-item">
+                <div class="icon-box">
+                  <ion-icon name="calendar-outline"></ion-icon>
+                </div>
+
+                <div class="contact-info">
+                  <p class="contact-title">Birthday</p>
+
+                  <time datetime="1999-04-10">April 10, 1999</time>
+                </div>
+              </li>
+
+              <li class="contact-item">
+                <div class="icon-box">
+                  <ion-icon name="location-outline"></ion-icon>
+                </div>
+
+                <div class="contact-info">
+                  <p class="contact-title">Location</p>
+
+                  <address>Ennozha, Ariana</address>
+                </div>
+              </li>
+            </ul>
+
+            <div class="separator"></div>
+
+            <ul class="social-list">
+              <li class="social-item">
+                <a
+                  href="https://github.com/dkhomran"
+                  class="social-link"
+                  target="_blank"
+                >
+                  <ion-icon name="logo-github"></ion-icon>
+                </a>
+              </li>
+
+              <li class="social-item">
+                <a
+                  href="https://wa.me/28085788"
+                  class="social-link"
+                  target="_blank"
+                >
+                  <ion-icon name="logo-whatsapp"></ion-icon>
+                </a>
+              </li>
+
+              <li class="social-item">
+                <a
+                  href="https://www.instagram.com/omraannn/?hl=fr"
+                  target="_blank"
+                  class="social-link"
+                >
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </aside>
+
+        <!--
+      - #main-content
+    -->
+
+        <div class="main-content ocean">
+          <div id="octocat"></div>
+          <div class="bubble bubble--1"></div>
+          <div class="bubble bubble--2"></div>
+          <div class="bubble bubble--3"></div>
+          <div class="bubble bubble--4"></div>
+          <div class="bubble bubble--5"></div>
+          <div class="bubble bubble--6"></div>
+          <div class="bubble bubble--7"></div>
+          <div class="bubble bubble--8"></div>
+          <div class="bubble bubble--9"></div>
+          <div class="bubble bubble--10"></div>
+          <div class="bubble bubble--11"></div>
+
+          <!--
+        - #NAVBAR
+      -->
+
+          <nav class="navbar">
+            <ul class="navbar-list">
+              <li class="navbar-item">
+                <button class="navbar-link active" data-nav-link>About</button>
+              </li>
+
+              <li class="navbar-item">
+                <button class="navbar-link" data-nav-link>Portfolio</button>
+              </li>
+
+              <li class="navbar-item">
+                <button class="navbar-link" data-nav-link>Blog</button>
+              </li>
+
+              <li class="navbar-item">
+                <button class="navbar-link" data-nav-link>Contact</button>
+              </li>
+
+              <!-- <li class="navbar-item">
+                <button class="navbar-link" data-nav-link>
+                  service_details
+                </button>
+              </li> -->
+            </ul>
+          </nav>
+
+          <!------------------------------------------
+        - #ABOUT
+      ---------------------------------------------->
+          <!--  -->
+          <article class="about active" data-page="about">
+            <header>
+              <h2 class="h2 article-title">About me</h2>
+            </header>
+
+            <section class="about-text">
+              <p class="isHidden" id="getDescription">
+                Hello 👋 I'm Software engineering student at the Arab University
+                of Sciences. I enjoy turning complex problems into simple,
+                beautiful and intuitive designs.
+              </p>
+
+              <p id="typedtext"></p>
+            </section>
+
+            <!--
+          - service
+        -->
+
+            <section class="service">
+              <h3 class="h3 service-title">What i'm doing</h3>
+
+              <ul class="service-list">
+                <li class="service-item">
+                  <div class="service-icon-box">
+                    <i class="fa-solid fa-palette"></i>
+                  </div>
+
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Web design</h4>
+
+                    <p class="service-item-text">
+                      I will craft your design with a very high quality from
+                      scratch
+                    </p>
+                  </div>
+                </li>
+
+                <li class="service-item">
+                  <div class="service-icon-box">
+                    <i class="fa-solid fa-laptop-code"></i>
+                  </div>
+
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Web development</h4>
+
+                    <p class="service-item-text">
+                      I will develop your website with a High-quality.
+                    </p>
+                  </div>
+                </li>
+
+                <li class="service-item">
+                  <div class="service-icon-box">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                  </div>
+
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Problem Solving</h4>
+
+                    <p class="service-item-text">
+                      I will help you to fix and solve all your web problems.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </section>
+
+            <!--
+          - Education
+        -->
+
+            <section class="timeline">
+              <div class="title-wrapper">
+                <div class="icon-box">
+                  <ion-icon name="book-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3">Education</h3>
+              </div>
+
+              <ol class="timeline-list">
+                <li class="timeline-item">
+                  <h4 class="h4 timeline-item-title">
+                    Arab University of Sciences
+                  </h4>
+
+                  <span>2022 — Present</span>
+
+                  <p class="timeline-text">
+                    software engineering
+                  </p>
+                </li>
+
+                <li class="timeline-item">
+                  <h4 class="h4 timeline-item-title">
+                    Arab University of Sciences
+                  </h4>
+
+                  <span>2020 — 2022</span>
+
+                  <p class="timeline-text">
+                    License in Information and Communication Technologies.
+                  </p>
+                </li>
+
+                <li class="timeline-item">
+                  <h4 class="h4 timeline-item-title">
+                    High school March 2, 1934
+                  </h4>
+
+                  <span>2019 - 2020</span>
+
+                  <p class="timeline-text">
+                    Baccalaureate degree in technical sciences
+                  </p>
+                </li>
+              </ol>
+            </section>
+
+            <!--
+          - My skills
+        -->
+
+            <section class="skill">
+              <h3 class="h3 skills-title">My skills</h3>
+
+              <ul class="skills-list content-card">
+                <li class="skills-item">
+                  <div class="title-wrapper">
+                    <h5 class="h5">HTML5</h5>
+                    <data value="100">100%</data>
+                  </div>
+
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" data-progress="100"></div>
+                  </div>
+                </li>
+
+                <li class="skills-item">
+                  <div class="title-wrapper">
+                    <h5 class="h5">CSS3</h5>
+                    <data value="90">90%</data>
+                  </div>
+
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" data-progress="90"></div>
+                  </div>
+                </li>
+
+                <li class="skills-item">
+                  <div class="title-wrapper">
+                    <h5 class="h5">JavaScript</h5>
+                    <data value="80">80%</data>
+                  </div>
+
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" data-progress="70"></div>
+                  </div>
+                </li>
+
+                <li class="skills-item">
+                  <div class="title-wrapper">
+                    <h5 class="h5">Bootstrap</h5>
+                    <data value="90">90%</data>
+                  </div>
+
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" data-progress="90"></div>
+                  </div>
+                </li>
+
+                <li class="skills-item">
+                  <div class="title-wrapper">
+                    <h5 class="h5">Tailwind CSS</h5>
+                    <data value="90">90%</data>
+                  </div>
+
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" data-progress="90"></div>
+                  </div>
+                </li>
+
+                <li class="skills-item">
+                  <div class="title-wrapper">
+                    <h5 class="h5">PHP</h5>
+                    <data value="80">80%</data>
+                  </div>
+
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" data-progress="80"></div>
+                  </div>
+                </li>
+
+<<<<<<< HEAD
+                <li class="skills-item">
+                  <div class="title-wrapper">
+                    <h5 class="h5">React Js</h5>
+                    <data value="80">80%</data>
+                  </div>
+=======
+              
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Symfony</h5>
+                  <data value="80">70%</data>
+                </div>
+>>>>>>> dbebc483bb0e4cfaa61e3c4068ed61637f118a39
+
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" data-progress="80"></div>
+                  </div>
+                </li>
+
+                <li class="skills-item">
+                  <div class="title-wrapper">
+                    <h5 class="h5">Angular</h5>
+                    <data value="80">80%</data>
+                  </div>
+
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" data-progress="80"></div>
+                  </div>
+                </li>
+
+                <li class="skills-item">
+                  <div class="title-wrapper">
+                    <h5 class="h5">Laravel</h5>
+                    <data value="80">80%</data>
+                  </div>
+
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" data-progress="80"></div>
+                  </div>
+                </li>
+
+                <li class="skills-item">
+                  <div class="title-wrapper">
+                    <h5 class="h5">Symfony</h5>
+                    <data value="80">80%</data>
+                  </div>
+
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" data-progress="80"></div>
+                  </div>
+                </li>
+
+                <li class="skills-item">
+                  <div class="title-wrapper">
+                    <h5 class="h5">SQL</h5>
+                    <data value="80">80%</data>
+                  </div>
+
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" data-progress="80"></div>
+                  </div>
+                </li>
+
+                <li class="skills-item">
+                  <div class="title-wrapper">
+                    <h5 class="h5">GIT</h5>
+                    <data value="80">80%</data>
+                  </div>
+
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" data-progress="80"></div>
+                  </div>
+                </li>
+
+                <li class="skills-item">
+                  <div class="title-wrapper">
+                    <h5 class="h5">TRELLO</h5>
+                    <data value="80">90%</data>
+                  </div>
+
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" data-progress="80"></div>
+                  </div>
+                </li>
+
+                <li class="skills-item">
+                  <div class="title-wrapper">
+                    <h5 class="h5">Networking</h5>
+                    <data value="70">70%</data>
+                  </div>
+
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" data-progress="70"></div>
+                  </div>
+                </li>
+              </ul>
+            </section>
+
+            <!--
+          - certificates
+        -->
+
+            <section class="certificates">
+              <h3 class="h3 certificate-title">My certificates</h3>
+
+              <ul class="certificate-list has-scrollbar">
+                <li class="certificate-item">
+                  <span>
+                    <img
+                      src="./assets/images/cert-CT-CFYR8SJK.jpg"
+                      alt="certificate logo"
+                      style="border-radius: 10px"
+                    />
+                  </span>
+                </li>
+
+                <li class="certificate-item">
+                  <span>
+                    <img
+                      src="./assets/images/cert-CT-NECNS7YA.jpg"
+                      alt="certificate logo"
+                      style="border-radius: 10px"
+                    />
+                  </span>
+                </li>
+
+                <li class="certificate-item">
+                  <span>
+                    <img
+                      src="./assets/images/5b7ddb39-d429-49e1-a037-eed6daffaf14.png"
+                      alt="certificate logo"
+                      style="border-radius: 10px"
+                    />
+                  </span>
+                </li>
+
+                <li class="certificate-item">
+                  <span>
+                    <img
+                      src="./assets/images/cert-CT-RQOHP4TD.jpg"
+                      alt="certificate logo"
+                      style="border-radius: 10px"
+                    />
+                  </span>
+                </li>
+
+                <li class="certificate-item">
+                  <span>
+                    <img
+                            src="./assets/images/22.png"
+                            alt="certificate logo"
+                            style="border-radius: 10px"
+                    />
+                  </span>
+                </li>
+
+                <li class="certificate-item">
+                  <span>
+                    <img
+                            src="./assets/images/33.png"
+                            alt="certificate logo"
+                            style="border-radius: 10px"
+                    />
+                  </span>
+                </li>
+
+
+                <li class="certificate-item">
+                  <span>
+                    <img
+                            src="./assets/images/44.png"
+                            alt="certificate logo"
+                            style="border-radius: 10px"
+                    />
+                  </span>
+                </li>
+
+                <li class="certificate-item">
+                  <span>
+                    <img
+                      src="./assets/images/305522584_383425077137408_7926303550526465167_n.jpg"
+                      alt="certificate logo"
+                      style="border-radius: 10px"
+                    />
+                  </span>
+                </li>
+
+                <li class="certificate-item">
+                  <span>
+                    <img
+                      src="./assets/images/cerfifjs.png"
+                      alt="certificate logo"
+                      style="border-radius: 10px"
+                    />
+                  </span>
+                </li>
+
+                <li class="certificate-item">
+                  <span>
+                    <img
+                      src="./assets/images/cisco.png"
+                      alt="certificate logo"
+                      style="border-radius: 10px"
+                    />
+                  </span>
+                </li>
+                <li class="certificate-item">
+                  <span>
+                    <img
+                            src="./assets/images/2222.png"
+                            alt="certificate logo"
+                            style="border-radius: 10px"
+                    />
+                  </span>
+                </li>
+
+              </ul>
+
+              <div class="popup-image">
+                <span>&times;</span>
+                <img src="./assets/images/cerfifjs.png" alt="" />
+              </div>
+            </section>
+          </article>
+
+          <!----------------------------------------
+        - #PORTFOLIO
+      ----------------------------------------------->
+
+          <article class="portfolio" data-page="portfolio">
+            <header>
+              <h2 class="h2 article-title">Portfolio</h2>
+            </header>
+
+            <section class="projects">
+              <ul class="filter-list">
+                <li class="filter-item">
+                  <button class="active" data-filter-btn>All</button>
+                </li>
+
+                <li class="filter-item">
+                  <button data-filter-btn>Web design</button>
+                </li>
+
+                <li class="filter-item">
+                  <button data-filter-btn>Web development</button>
+                </li>
+              </ul>
+
+              <div class="filter-select-box">
+                <button class="filter-select" data-select>
+                  <div class="select-value" data-selecct-value>
+                    Select category
+                  </div>
+
+                  <div class="select-icon">
+                    <ion-icon name="chevron-down"></ion-icon>
+                  </div>
+                </button>
+
+                <ul class="select-list">
+                  <li class="select-item">
+                    <button data-select-item>All</button>
+                  </li>
+
+                  <li class="select-item">
+                    <button data-select-item>Web design</button>
+                  </li>
+
+                  <li class="select-item">
+                    <button data-select-item>Web development</button>
+                  </li>
+                </ul>
+              </div>
+
+              <ul class="project-list">
+                <li
+                  class="project-item active"
+                  data-filter-item
+                  data-category="web development"
+                >
+                  <a href="https://dkhomran.github.io/docCare/" target="_blank">
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+
+                      <img
+                        src="./assets/images/doc.png"
+                        height="150"
+                        alt="Doc"
+                        loading="lazy"
+                      />
+                    </figure>
+
+                    <h3 class="project-title">Doctor care Web site</h3>
+
+                    <p class="project-category">Web development</p>
+                  </a>
+                </li>
+
+                <li
+                  class="project-item active"
+                  data-filter-item
+                  data-category="web development"
+                >
+                  <a href="https://dkhomran.github.io/Food_1/" target="_blank">
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+
+                      <img
+                        src="./assets/images/restp.png"
+                        height="150"
+                        alt="orizon"
+                        loading="lazy"
+                      />
+                    </figure>
+
+                    <h3 class="project-title">Restaurant Web Site</h3>
+
+                    <p class="project-category">Web development</p>
+                  </a>
+                </li>
+
+                <li
+                  class="project-item active"
+                  data-filter-item
+                  data-category="web design"
+                >
+                  <a
+                    href="https://dkhomran.github.io/Front-End-Monitor-Challange-02/"
+                    target="_blank"
+                  >
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+
+                      <img
+                        src="./assets/images/parfum.png"
+                        height="150"
+                        alt="orizon"
+                        loading="lazy"
+                      />
+                    </figure>
+
+                    <h3 class="project-title">Article of Product</h3>
+
+                    <p class="project-category">Web Design</p>
+                  </a>
+                </li>
+
+                <li
+                  class="project-item active"
+                  data-filter-item
+                  data-category="web design"
+                >
+                  <a
+                    href="https://dkhomran.github.io/Card-Profile/"
+                    target="_blank"
+                  >
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+
+                      <img
+                        src="./assets/images/card_profil.png"
+                        height="150"
+                        alt="orizon"
+                        loading="lazy"
+                      />
+                    </figure>
+
+                    <h3 class="project-title">Profil Card</h3>
+
+                    <p class="project-category">Web Design</p>
+                  </a>
+                </li>
+              </ul>
+            </section>
+          </article>
+
+          <!----------------------------------------
+        - #BLOG
+      ---------------------------------------------->
+
+          <article class="blog" data-page="blog">
+            <header>
+              <h2 class="h2 article-title">Blog</h2>
+            </header>
+
+            <section class="blog-posts">
+              <ul class="blog-posts-list">
+                <li class="blog-post-item">
+                  <a
+                    href="https://dkhomran.github.io/Front-End-Monitor-Challange-02/"
+                  >
+                    <figure class="blog-banner-box">
+                      <img
+                        src="./assets/images/product card.png"
+                        alt="Design conferences in 2022"
+                        loading="lazy"
+                      />
+                    </figure>
+
+                    <div class="blog-content">
+                      <div class="blog-meta">
+                        <p class="blog-category">Design</p>
+
+                        <span class="dot"></span>
+
+                        <time datetime="2022-02-23">Fab 23, 2022</time>
+                      </div>
+
+                      <h3 class="h3 blog-item-title">Product Card Design</h3>
+
+                      <p class="blog-text"></p>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </section>
+          </article>
+
+          <!-------------------------------------------
+        - #CONTACT
+      ----------------------------------------------->
+
+          <article class="contact" data-page="contact">
+            <header>
+              <h2 class="h2 article-title">Contact</h2>
+            </header>
+
+            <section class="mapbox" data-mapbox>
+              <figure>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6383.819224532183!2d10.19053449999999!3d36.86858230000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2stn!4v1665078225146!5m2!1sfr!2stn"
+                  width="600"
+                  height="450"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </figure>
+            </section>
+
+            <section class="contact-form">
+              <h3 class="h3 form-title">Contact Form</h3>
+
+              <form
+                action="mailto:dekhil22omran@gmail.com"
+                class="form"
+                data-form
+              >
+                <div class="input-wrapper">
+                  <input
+                    type="text"
+                    name="fullname"
+                    class="form-input"
+                    placeholder="Full name"
+                    required
+                    data-form-input
+                  />
+
+                  <input
+                    id="email"
+                    type="email"
+                    name="email"
+                    class="form-input"
+                    placeholder="Email address"
+                    required
+                    data-form-input
+                  />
+                </div>
+
+                <textarea
+                  name="message"
+                  class="form-input"
+                  placeholder="Your Message"
+                  required
+                  data-form-input
+                ></textarea>
+
+                <button class="form-btn" type="submit" disabled data-form-btn>
+                  <ion-icon name="paper-plane"></ion-icon>
+                  <span>Send Message</span>
+                </button>
+              </form>
+            </section>
+          </article>
+
+          <!--!------------------------- service details ------------------------->
+          <article class="blog" data-page="service_details">
+            <header>
+              <h2 class="h2 article-title">Service Details</h2>
+            </header>
+
+            <section class="service-Details">
+              <div id="service-popup-overlay" class="service-popup-overlay">
+                <div class="service-popup-content">
+                  <div id="close-service-popup">
+                    <i class="fa-regular fa-circle-xmark"></i>
+                  </div>
+                  <h2>vitrine web site</h2>
+                  <p>
+                    description : Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Sequi, praesentium.
+                  </p>
+                  <h3>options :</h3>
+                  <ul>
+                    <li>responsive</li>
+                    <li>responsive</li>
+                    <li>responsive</li>
+                    <li>responsive</li>
+                  </ul>
+                  <h3>technologies</h3>
+                  <ul>
+                    <li>symfony</li>
+                    <li>symfony</li>
+                    <li>symfony</li>
+                    <li>symfony</li>
+                    <li>symfony</li>
+                  </ul>
+                </div>
+              </div>
+              <h3>service name</h3>
+              <p>
+                We offer you the most complete and ergonomic solution on the
+                market for Tunisia website creation. Get a website that meets
+                your price/quality needs. We ensure the creation, referencing
+                and hosting of your site…
+              </p>
+              <figure class="service-details-img">
+                <div>
+                  <img src="./assets/images/blog-2.jpg" alt="" />
+                </div>
+              </figure>
+              <div class="offres">
+                <div class="offre-title">
+                  <h2>Web Types</h2>
+                </div>
+                <div class="cards">
+                  <div class="card">
+                    <h3>vitrine web site</h3>
+                    <p>
+                      descriptions Lorem ipsum dolor sit amet consectetur
+                      adipisicing elit. Itaque, natus?
+                    </p>
+
+                    <a href="#" class="show-more">Get price</a>
+                  </div>
+                  <div class="card">
+                    <h3>E-commerce web site</h3>
+                    <p>
+                      descriptions Lorem ipsum dolor sit amet consectetur
+                      adipisicing elit. Itaque, natus?
+                    </p>
+
+                    <a href="#" class="show-more">Get price</a>
+                  </div>
+                  <div class="card">
+                    <h3>Dynamic web site</h3>
+                    <p>
+                      descriptions Lorem ipsum dolor sit amet consectetur
+                      adipisicing elit. Itaque, natus?
+                    </p>
+
+                    <a href="#" class="show-more">Get price</a>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </article>
+        </div>
+      </main>
+    </div>
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
